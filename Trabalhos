@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Trabalhos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meus Trabalhos</h1>
+    </header>
+
+    <main>
+        <div class="galeria">
+            <div class="item">
+                <img src="imagem1.jpg" alt="Descrição do trabalho 1">
+                <p>Descrição do trabalho 1</p>
+            </div>
+            <div class="item">
+                <img src="imagem2.jpg" alt="Descrição do trabalho 2">
+                <p>Descrição do trabalho 2</p>
+            </div>
+            <div class="item">
+                <img src="imagem3.jpg" alt="Descrição do trabalho 3">
+                <p>Descrição do trabalho 3</p>
+            </div>
+            <!-- Adicione mais trabalhos conforme necessário -->
+        </div>
+
+        <a href="artista.html" class="button">Conhecer o Artista</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Nome</p>
+    </footer>
+</body>
+</html>
