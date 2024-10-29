@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Sobre o Artista</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Conhecer o Artista</h1>
+    </header>
+
+    <main class="artista">
+        <img src="artista.jpg" alt="Foto do Artista">
+        <p>Olá! Sou um artista apaixonado por criar e compartilhar meu trabalho. Minha missão é inspirar e emocionar através da arte.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Nome</p>
+    </footer>
+</body>
+</html>
