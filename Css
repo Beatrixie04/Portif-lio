@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.button {
+    display: inline-block;
+    background: #ff007f;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: auto;
+    max-height: 70vh;
+    margin: 20px 0;
+}
+
+.item {
+    margin: 10px;
+}
+
+.item img {
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.artista {
+    text-align: center;
+}
+
+.artista img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #000;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
